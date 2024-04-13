@@ -6,6 +6,8 @@ package main.java.com.pedrowsite.introducao;
  */
 public class VariableTypes {
     public static void main(String[] args) {
+        // T I P O S  P R I M I T I V O S
+
         // boolean
         boolean verdadeiro = true; // 1 bit
         System.out.println(verdadeiro);
@@ -32,5 +34,11 @@ public class VariableTypes {
         // long
         long numeroLong = 999999999999999999L; // Sufixo L indica que é um long (8 Bytes || 64 bits)
         System.out.println(numeroLong);
+
+        // T I P O S  D E  R E F E R Ê N C I A
+
+        // String
+        String nome = "Pedrow";
+        System.out.println("Meu nome é " + nome + "!");
     }
 }
