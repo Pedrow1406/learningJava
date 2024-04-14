@@ -1,4 +1,4 @@
-package main.java.com.pedrowsite.javacore.introducaoclasses.A.dominio;
+package main.java.com.pedrowsite.javacore.introducaoclasses.atributos.dominio;
 
 public class Carro {
     public String nome;

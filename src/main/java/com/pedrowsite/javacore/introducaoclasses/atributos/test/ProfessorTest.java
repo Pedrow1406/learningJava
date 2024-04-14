@@ -1,6 +1,6 @@
-package main.java.com.pedrowsite.javacore.introducaoclasses.A.test;
+package main.java.com.pedrowsite.javacore.introducaoclasses.atributos.test;
 
-import main.java.com.pedrowsite.javacore.introducaoclasses.A.dominio.Professor;
+import main.java.com.pedrowsite.javacore.introducaoclasses.atributos.dominio.Professor;
 
 public class ProfessorTest {
     public static void main(String[] args) {
