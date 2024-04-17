@@ -4,11 +4,10 @@ import main.java.com.pedrowsite.javacore.introducaoclasses.metodos.dominio.Calcu
 
 public class CalculadoraTest {
     public static void main(String[] args) {
-        Calculadora calc = new Calculadora();
-        calc.somar(13,7,23,84,12);
-        calc.subtrair(1000,30, 10,660);
-        calc.multiplicar(12, 5,10);
-        double result = calc.dividir(13, 0);
+        Calculadora.somar(13,7,23,84,12);
+        Calculadora.subtrair(1000,30, 10,660);
+        Calculadora.multiplicar(12, 5,10);
+        double result = Calculadora.dividir(13, 0);
         System.out.println(result);
     }
 }
