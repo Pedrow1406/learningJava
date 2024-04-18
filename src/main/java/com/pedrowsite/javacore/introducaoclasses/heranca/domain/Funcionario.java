@@ -8,6 +8,7 @@ public class Funcionario  extends Pessoa{
         this.salario = salario;
     }
 
+    @Override
     public void displayData(){
         System.out.println("===================================");
         System.out.println("Nome: " + this.nome);
