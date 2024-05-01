@@ -2,10 +2,10 @@ package main.java.com.pedrowsite.colecoes.domain;
 
 import java.util.Objects;
 
-public class Manga {
+public class Manga implements  Comparable<Manga>{
     private Long id;
     private String nome;
-    private double preco;
+    private Double preco;
 
     public Manga(long id, String nome, double preco) {
         this.id = id;
@@ -34,6 +34,12 @@ public class Manga {
         return Objects.hash(id, nome);
     }
 
+
+    @Override
+    public int compareTo(Manga manga) { // Ordena pelo ID do mangá
+        return this.id.compareTo(manga.getId());
+    }
+
     public Long getId() {
         return id;
     }
@@ -50,11 +56,11 @@ public class Manga {
         this.nome = nome;
     }
 
-    public double getPreco() {
+    public Double getPreco() {
         return preco;
     }
 
-    public void setPreco(double preco) {
+    public void setPreco(Double preco) {
         this.preco = preco;
     }
 }
