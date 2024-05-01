@@ -33,7 +33,7 @@ public class SortingListTest {
 
         System.out.println("Ordem pelo Nome");
         OrderByName ordenedByName = new OrderByName();
-        Collections.sort(mangas, ordenedByName);
+        mangas.sort(ordenedByName);
         for (Manga manga : mangas) {
             System.out.println(manga);
         }
@@ -41,7 +41,7 @@ public class SortingListTest {
 
 
         System.out.println("Ordem de preço");
-        Collections.sort(mangas,  (Manga m1, Manga m2) -> m1.getPreco().compareTo(m2.getPreco()));
+        mangas.sort((Manga m1, Manga m2) -> m1.getPreco().compareTo(m2.getPreco()));
         for (Manga manga : mangas) {
             System.out.println(manga);
         }
