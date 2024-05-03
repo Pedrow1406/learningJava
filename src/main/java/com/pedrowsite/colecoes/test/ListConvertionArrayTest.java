@@ -61,6 +61,5 @@ public class ListConvertionArrayTest {
         for (String nome : nomes) {
             System.out.println(nome);
         }
-        z
     }
 }
