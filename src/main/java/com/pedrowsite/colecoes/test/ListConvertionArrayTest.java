@@ -56,7 +56,7 @@ public class ListConvertionArrayTest {
         // M E L H O R   F O R M A   D E   C R I A R   U M   A R R A Y
         System.out.println("M E L H O R   F O R M A   D E   C R I A R   U M   A R R A Y");
         List<String> nomes = new ArrayList<>(Arrays.asList("Pedrow", "João", "Maria", "José"));
-        nomes.add(1,"Lucas");
+        nomes.add(1, "Lucas");
         System.out.println(nomes);
         for (String nome : nomes) {
             System.out.println(nome);
