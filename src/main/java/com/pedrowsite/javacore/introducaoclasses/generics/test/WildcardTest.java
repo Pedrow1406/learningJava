@@ -39,7 +39,7 @@ public class WildcardTest {
             i++;
         }
     }
-    private static void addElementExtends(List<? extends Animal> animals) { // Não pode adicionar nada na lista animals se não da erro de compilação
+    private static void addElementExtends(List<? extends Animal> animals) { // Não pode adicionar nada na lista animals se não da erro da compilação
         System.out.println("EXTENDS");
         short i = 1;
         for (Object animal : animals) {
